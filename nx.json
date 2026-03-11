@@ -1,7 +1,0 @@
-{
-  "targetDefaults": {
-    "typecheck": {
-      "dependsOn": ["^build"]
-    }
-  }
-}
