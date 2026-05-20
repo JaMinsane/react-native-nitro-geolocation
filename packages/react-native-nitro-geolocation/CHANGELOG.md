@@ -1,5 +1,11 @@
 # react-native-nitro-geolocation
 
+## 1.3.1
+
+### Patch Changes
+
+- 4d234ea: Add README guidance for the Rozenite DevTools plugin.
+
 ## 1.3.0
 
 ### Minor Changes
