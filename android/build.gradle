@@ -188,6 +188,11 @@ if (usePrebuilt) {
 android {
   namespace "com.margelo.nitro.nitrogeolocation"
 
+  // Keep the C++ runtime ABI aligned with the consuming React Native app.
+  // The root project supplies this value when present; this package's
+  // gradle.properties provides the fallback for standalone builds.
+  ndkVersion getExtOrDefaultValue("ndkVersion", "27.1.12297006")
+
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
 
   defaultConfig {
